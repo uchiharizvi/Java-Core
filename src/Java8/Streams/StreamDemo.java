@@ -35,11 +35,5 @@ public class StreamDemo {
                         -> ans + i
                 );
         System.out.println("Even : " + even);
-        //range()-ForEach()
-        IntStream//Anonymous Class
-                .range(1,10)
-                .forEach(System.out::print);
-        System.out.println();
-
     }
 }
